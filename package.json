@@ -5,8 +5,7 @@
   "description": "Mastodon accounts the house holds: registers through a server's own API (an app, then the account, with the reason and date of birth the server asks for), keeps the password and token private on the node, reports the confirmation and approval the server still waits on, and keeps the public profile (bot flag, name, note, fields, avatar) equal to the one asked for, and, once the account is active, posts statuses and reads its notifications.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-web-engineering-services-section.git",
-    "directory": "services/web-platform-services-section/services/web2-platform-services-section/services/web2-social-platform-services-section/services/mastodon-services-section"
+    "url": "git+https://github.com/red-cup-engineering/mastodon-services-section.git"
   },
   "exports": {
     ".": "./src/provision.mjs",
