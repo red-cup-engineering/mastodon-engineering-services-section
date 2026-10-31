@@ -7,7 +7,7 @@
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
 
-Mastodon accounts the house holds, made and kept through a server's REST API.
+Mastodon accounts the Group holds, made and kept through a server's REST API.
 
 - `src/mastodon.mjs` calls the server's API: the registration terms (`/api/v2/instance`), an app and its client token, `POST /api/v1/accounts`, what an account may do now (`verify_credentials`), and its profile (`update_credentials`). Once the account is active, it also posts statuses (`postStatus`, with an idempotency key so a retry does not post twice) and reads notifications (`notifications`, oldest first, with each status's visibility). It is credential-blind: callers pass tokens in.
 - `src/credentials.mjs` stores each account's email, password, app and token at `~/.config/561-group/mastodon/<server>/<username>.json`, directory 0700, file 0600. The file is written before the server is asked for anything, so a run that stops halfway can be finished by the next one.
