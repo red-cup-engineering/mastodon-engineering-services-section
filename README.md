@@ -1,4 +1,4 @@
-# Mastodon
+# @red-cup-engineering/mastodon-engineering-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
@@ -6,6 +6,8 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/red-cup-engineering/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+
+Mastodon accounts the house holds: registers through a server's own API (an app, then the account, with the reason and date of birth the server asks for), keeps the password and token private on the node, reports the confirmation and approval the server still waits on, and keeps the public profile (bot flag, name, note, fields, avatar) equal to the one asked for, and, once the account is active, posts statuses and reads its notifications.
 
 Mastodon accounts the Group holds, made and kept through a server's REST API.
 
