@@ -19,18 +19,5 @@
     "src",
     "scripts"
   ],
-  "engines": {
-    "node": ">=22.18"
-  },
-  "keywords": [
-    "mastodon",
-    "fediverse",
-    "activitypub",
-    "credential-blind"
-  ],
-  "license": "MIT",
-  "funding": {
-    "type": "individual",
-    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
-  }
+  "license": "MIT"
 }
